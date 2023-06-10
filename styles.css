@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 95%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header img {
+    width: 240px;
+}
+
+.google-play img {
+    width: 135px !important;
+}
+
+.play {
+    border-radius: 8px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 60px;
+    padding: 10px 10px 10px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.elfsight-app-0634ef7a-807a-4f67-b85d-f1f9b982a322 {
+    color: blue !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.elfsight-app-aa93292d-6f05-456f-a527-19206b01aff0 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.elfsight-app-c0685903-8034-4096-ba52-0bcb65862bad {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.elfsight-app-5731d100-f277-450a-877c-3249a0daf569 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poweredBy {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modeas iframe {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.play a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.play a img {
+    width: 100% !important;
+    margin-left: 10px;
+}
+
+#pos-header {
+    background-image: url('./images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 75%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 24px;
+    padding: 12px 60px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07b246;
+}
+
+.text a img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+#main-div {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title-widgets {
+    color: #932a83;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.widget-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ef7f1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.widget-title img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.widgets {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.align {
+    height: 600px;
+    overflow: hidden;
+}
+
+.wide {
+    display: none;
+}
+
+.note {
+    overflow: hidden;
+}
+
+.youtube {
+    border-radius: 4px;
+    box-shadow: 5px 3px 3px 1px rgb(118, 118, 118);
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 470px;
+    overflow-y: auto;
+}
+
+.instagram2 {
+    border-radius: 4px;
+    box-shadow: 5px 3px 3px 1px rgb(118, 118, 118);
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 470px;
+    overflow-y: auto;
+}
+
+
+.instagram {
+    border-radius: 4px;
+    box-shadow: 5px 3px 3px 1px rgb(118, 118, 118);
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 470px;
+    overflow-y: auto;
+}
+
+
+.facebook {
+    border-radius: 4px;
+    box-shadow: 5px 3px 3px 1px rgb(118, 118, 118);
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 470px;
+    overflow-y: auto;
+}
+
+.moedas {
+    border-radius: 4px;
+    box-shadow: 5px 3px 3px 1px rgb(118, 118, 118);
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 470px;
+}
+
+#g-ads {
+    border: 1px solid red;
+    width: 80%;
+    height: 100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f57c00;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.separar {
+    margin-bottom: 10px;
+}
+
+@media(min-width: 1400px) {
+    .youtube {
+        width: 420px;
+    }
+
+    .facebook {
+        width: 420px;
+    }
+
+    .note {
+        display: none;
+    }
+
+    .wide {
+        display: block;
+    }
+
+    .instagram {
+        width: 420px;
+    }
+
+    .moedas {
+        width: 420px;
+    }
+}
+
+@media(min-width: 250px) and (max-width: 750px) {
+    #header {
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play {
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #downloads {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-store {
+        margin-top: 5px;
+    }
+
+    .widgets {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram2 {
+        margin-bottom: 40px;
+    }
+
+    #footer {
+        padding: 10px;
+    }
+}
