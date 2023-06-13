@@ -21,8 +21,6 @@
 }
 
 .play {
-    border-radius: 8px;
-    border: 1px solid #000;
     width: 200px;
     height: 60px;
     padding: 10px 10px 10px 3px;
@@ -240,7 +238,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f57c00;
     text-align: center;
-    height: 70px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,8 +247,18 @@
     font-size: 14px;
 }
 
+#footer img {
+    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
 .separar {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 @media(min-width: 1400px) {
