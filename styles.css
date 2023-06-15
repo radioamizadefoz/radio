@@ -226,13 +226,16 @@
 }
 
 #g-ads {
-    border: 1px solid red;
     width: 80%;
-    height: 100px;
+    height: 300px;
     margin: 100px auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ads-1 {
+    margin-bottom: 30px;
 }
 
 #footer {
@@ -298,8 +301,10 @@
 
     .play {
         margin: 0;
+        height: 100%;
         margin-top: 30px;
         margin-bottom: 30px;
+        width: 300px;
     }
 
     #downloads {
@@ -321,6 +326,10 @@
 
     .instagram2 {
         margin-bottom: 40px;
+    }
+
+    #g-ads {
+        height: 550px;
     }
 
     #footer {
